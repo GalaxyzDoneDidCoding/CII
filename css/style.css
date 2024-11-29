@@ -1,0 +1,391 @@
+* {padding: 0; margin: 0}
+* {box-sizing: border-box;}
+/* THIS SECTION IS FOR LAYOUT*/
+
+header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border-radius: 2px;
+    z-index: 1;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: slategrey;
+    background-color: white;
+    text-align: center;
+}
+
+section {
+    margin: 0px 0px 60px 0px;
+    padding: 10px 0px 10px 0px;
+    overflow: hidden;
+    top: 0;
+    border-radius: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: slategrey;
+    background-color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+article {
+    margin: 10px 5% 10px 5%;
+    font-family: monospace;
+}
+
+aside {
+    
+}
+
+footer {
+    padding: 50px 10% 50px 10%;
+    align-items: center;
+    border-top-style: solid;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*THIS SECTION IS FOR EVERYTHING ELSE*/
+footer a {
+    color: white;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover{
+    text-decoration: none;
+    background-color: snow;
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgba(240, 240, 240, 0.897);
+    z-index: 1px;
+  }
+  
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+i {
+  margin-left: 40px;
+}
+/*THIS SECTION IS FOR CLASS*/
+
+.onpage {
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgba(240, 240, 240, 0.897);
+    z-index: 1px;
+}
+
+.logo {
+  max-width: 5%;
+}
+
+.titlesection {
+  margin: 0px 0px 60px 0px;
+  padding: 30px 0px 20px 0px;
+  font-size: 70px;
+}
+
+.byperson {
+  text-decoration: none !important;
+}
+
+.columnl {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+.columnmid {
+    float: left;
+    width: 52%;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.columnr {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  /* Clear floats after the columns */
+.mainblock:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imgresponsive {
+    max-width: 100%;
+}
+
+.shiftimage {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.shiftimage img {
+  max-width: 100%;
+  float: right;
+}
+
+.shiftimage .text {
+  max-width: 60%;
+  font-size: 17.5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+/* Container needed to position the button. Adjust the width as needed */
+.ad1 {
+    position: relative;
+  }
+  
+  /* Make the image responsive */
+  .ad1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .ad1 .btn {
+    position: absolute;
+    top: 2%;
+    left: 99.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+/* Container needed to position the button. Adjust the width as needed */
+.ad2 {
+  position: relative;
+}
+
+.ad2 img{
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.ad2 .btn {
+  position: absolute;
+  top: 0.4%;
+  left: 97.225%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+
+.newsgrid::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.newsgridad::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.newsrow{
+  float: left;
+  width: 25%;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.newsrowad{
+  float: left;
+  width: 33%;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.newsgridad{
+  display: flex;
+}
+
+.newsgridad .left{
+  flex: 75%;
+}
+
+.newsgridad .right{
+  flex: 25%;
+}
+
+.carousel-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.carouselin {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.carouselcolumn::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.carouselrow{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1100px) {
+    .uhhh {
+      padding: 10px 0px 10px 0px;
+      font-size: 30px; /*temporary as logo will be changed to Image*/
+    }
+  
+    .columnmid, .columnl, .columnr {
+      width: 100%; /* The width is 100%, when the viewport is 1100px or smaller */
+    }
+
+    .columnl img{
+      width: 120%
+    }
+
+    .newsrow{
+      width: 100%;
+      padding: 10px;
+    }
+
+    .newsrow img{
+      width: 200%;
+    }
+
+    .shiftimage{
+      clear: both;
+    }
+
+    .shiftimage img{
+      float: right;
+      background-color: aqua;
+      width: fit-content;
+    }
+
+    .shiftimage .text{
+      font-size: 20px;
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .logo{
+      float: right;
+      width: 50px;
+      height: auto;
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,22 @@
+COMPUTER GROUP 2
+DEADLINE : 29/11/2024
+TOPIC: CELEBRITY (somewhat like https://www.tmz.com and https://www.vogue.com)
+MEMBERS:
+RADHEYA
+MICHELLE
+RAYYANA
+PANJI
+ENRICHO
+
+CRITERIA:
+1. Having features in the website (MOST IMPORTANT!)
+2. Responsive to window size changes (ALOT OF EXTRA POINTS!)
+3. Web Design (some more points)
+4. 5 page minimum (idk)
+5. Be able to explain the code
+6. Hosting on github
+
+HELPFUL SITES AND SOURCES:
+https://startbootstrap.com (Templates)
+https://getbootstrap.com (Implenting features)
+https://www.w3schools.com/html/ (Implenting features)
